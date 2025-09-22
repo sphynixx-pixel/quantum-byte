@@ -1,0 +1,99 @@
+body {
+    color: #8a8a8a;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+    margin: 20px;
+    background: linear-gradient(to right, #5e5d5c, #232222);
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    background: #3b3333;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+header h1:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: left;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 25px;
+    background: #e1f5fe99;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+ul {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    background: #fff3e000;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 15px auto;
+    background: #4a4949;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+th {
+    background: #232323;
+    color: rgb(109, 107, 107);
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+}
+
+audio, video {
+    display: block;
+    margin: 15px auto;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
